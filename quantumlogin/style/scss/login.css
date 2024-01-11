@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 47px 1fr 40px;
+  height: 100vh;
+}
+
+/*  Header style     */
+.header {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  color: white;
+}
+.header img {
+  height: 30px;
+}
+
+/*  Content Style */
+.content {
+  background-color: #EEEEEE;
+  display: grid;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.login-card {
+  max-width: 488px;
+  width: 100vw;
+  max-height: 600px;
+  background-color: white;
+  padding: 0px 32px 20px 32px;
+  border-top: 4px solid #3AC7EC;
+  display: flex;
+  flex-direction: column;
+}
+.login-card h2 {
+  margin: 20px auto 0 auto;
+  font-size: 24px;
+}
+.login-card form {
+  margin-top: 34px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.login-card form input[type=radio] {
+  margin-right: 8px;
+}
+.login-card form input[type=checkbox] {
+  height: 24px;
+  width: 18px;
+  margin-right: 5px;
+}
+.login-card form input[type=submit] {
+  height: 40px;
+  width: 215px;
+  display: block;
+  margin: 0 auto;
+  background-color: #3FD28B;
+  border: none;
+  box-shadow: 3px 4px 7px 0px #8d8d8d;
+}
+.login-card form label {
+  margin-right: 32px;
+  color: #333333;
+}
+.login-card form select, .login-card form .full-input {
+  width: 424px;
+  border: none;
+  border-bottom: 1px solid rgb(222, 222, 222);
+}
+.login-card form .forgot {
+  text-align: right;
+  color: #1F7A54;
+  font-size: 14px;
+}
+
+.menu {
+  display: block;
+  position: relative;
+  bottom: 5px;
+  margin: 15px auto 0 auto;
+}
+.menu a {
+  text-decoration: none;
+  color: #1F7A54;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+/*  Footer Style     */
+.footer {
+  display: flex;
+  font-size: 12px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  background-color: #E0E1E1;
+  color: #616161;
+}
+.footer p {
+  padding-left: 16px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.footer-logo {
+  padding: 0 16px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1215686275);
+}
+
+/*  Utility Classes */
+.mb-36 {
+  margin-bottom: 36px;
+}
+
+.mb-34 {
+  margin-bottom: 34px;
+}
+
+.mb-33 {
+  margin-bottom: 33px;
+}
+
+.mb-25 {
+  margin-bottom: 25px;
+}
+
+.mb-26 {
+  margin-bottom: 26px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.inline {
+  display: inline;
+}
+
+.bold {
+  font-weight: 700;
+  color: black;
+}
+
+.align-center {
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=login.css.map */
