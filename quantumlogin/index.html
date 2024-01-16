@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="style/scss/login.css">
+    <link rel="stylesheet" href="style/css/login.css">
     <title>Document</title>
 </head>
 <body>
@@ -17,7 +17,8 @@
 
         <!-- Header -->
         <div class="header">
-            <img src="assets/icons/logo used in header.svg" class="logo-img">
+            <img class="img1" src="assets/header pattern image.png" alt="" >
+            <img class="img2" src="assets/icons/logo used in header.svg" class="logo-img">
         </div>
 
 
@@ -35,15 +36,15 @@
 
                     <div class="input-div mb-36">
                         <label for="state">State*</label>
-                        <select>
-                            <option value="Alabama">Alabama</option>
+                        <select class="state-option" >
+                            <option  value="Alabama">Alabama</option>
                         </select>
                     </div>
 
                     <div class="input-div mb-56">
                         <label for="District">District*</label>
-                        <select>
-                            <option class="state-option" value="Alabama School District">Alabama School District</option>
+                        <select class="state-option" >
+                            <option value="Alabama School District">Alabama School District</option>
                         </select>
                     </div>
 
@@ -52,8 +53,11 @@
                         <p class="forgot">FORGOT USERNAME?</p>
                     </div>
 
-                    <div class="input-div mb-26">
+                    <div class="input-divp mb-26">
+                        
                         <input type="password" name="password" id="password" placeholder="Password*" class="full-input">
+                        <img class="preview" src="assets/icons/preview.svg" alt="">
+                        
                         <p class="forgot">FORGOT PASSWORD?</p>
                     </div>
 
@@ -66,8 +70,8 @@
                 </form>
             </div>
             <div class="menu">
-                <a href="#">About</a> |
-                <a href="#">Contect Us</a>
+                <a href="#">About</a> <span class="span">|</span>
+                <a href="#">Contact Us</a>
             </div>
         </div>
 
