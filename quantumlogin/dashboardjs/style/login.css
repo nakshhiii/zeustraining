@@ -49,6 +49,9 @@
     flex-direction: column;
     z-index: 1;
   }
+  .state-option{
+    font-weight: bold;
+  }
   .container .login-card .form-title {
     display: flex;
     align-items: flex-end;
@@ -65,7 +68,7 @@
   .container .login-card form {
     margin-top: 32px;
     font-size: 16px;
-    font-weight: 600;
+    
   }
   .container .login-card form .radio-input {
     display: flex;

@@ -2,7 +2,8 @@
     {
         "title": "Acceleration",
         "subject": "Physics",
-        "grade": "7 +2",
+        "grade": "7",
+        "subgrade": "2",
         "details" : {
             "units" : 4,
             "lessons" : 18,
@@ -14,7 +15,7 @@
             "All Classes"
         ],
         "students" : 50,
-        "stardDate" : "21-Jan-2020",
+        "startDate" : "21-Jan-2020",
         "endDate" : "21-Aug-2020",
         "profilePic" : "/zeustraining/quantumlogin/assets/images/imageMask.png",
         "isFavorite" : true,
@@ -24,12 +25,13 @@
             "gradeSubmissions": true,
             "reports": true
         },
-        "isAlive": true
+        "isExpired": true
     },
     {
         "title": "Displacement, Velocity and Speed",
         "subject": "Physics 2",
-        "grade": "6 +3",
+        "grade": "6",
+        "subgrade": "3",
         "details" : {
             "units" : 2,
             "lessons" : 15,
@@ -48,12 +50,13 @@
             "gradeSubmissions": false,
             "reports": true
         },
-        "isAlive": true
+        "isExpired": true
     },
     {
         "title": "Introduction to Biology: Microorganisms and how they affect",
         "subject": "Biology",
-        "grade": "4 +1",
+        "grade": "4",
+        "subgrade": "1",
         "details" : {
             "units" : 5,
             "lessons" : 16,
@@ -73,19 +76,20 @@
             "gradeSubmissions": false,
             "reports": true
         },
-        "isAlive": true
+        "isExpired": true
     },
     {
         "title": "Introduction to High School Mathematics",
         "subject": "Mathematics",
-        "grade": "8 +3",
+        "grade": "8 ",
+        "subgrade": "3",
         "classOption": [
             "Mr. Frank's Class A",
             "No Classes",
             "All Classes"
         ],
         "students" : 44,
-        "stardDate" : "14-Oct-2019",
+        "startDate" : "14-Oct-2019",
         "endDate" : "20-Oct-2020",
         "profilePic" : "/zeustraining/quantumlogin/assets/images/imageMask-3.png",
         "isFavorite" : false,
@@ -95,6 +99,6 @@
             "gradeSubmissions": true,
             "reports": true
         },
-        "isAlive": false
+        "isExpired": false
     }
 ]
