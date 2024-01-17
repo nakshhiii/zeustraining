@@ -15,7 +15,7 @@ body {
   /* header style */
   .header {
     height: 56px;
-    background: transparent url("/assets/headerPatternImage.png") 0% 0% padding-box;
+    background: transparent url("/zeustraining//quantumlogin/dashboardjs/assets/header\ pattern\ image.png") 0% 0% padding-box;
     mix-blend-mode: overlay;
     opacity: 1;
     background-color: black;
@@ -117,7 +117,6 @@ body {
   }
   
   .hamburger-menu {
-    height: -moz-max-content;
     height: max-content;
     position: absolute;
     width: 280px;
@@ -145,7 +144,7 @@ body {
   .hamburger-menu .dropdown span {
     display: block;
     float: right;
-    rotate: 90deg;
+  
   }
   .hamburger-menu .dropdown .menu-subItems {
     display: none;
@@ -166,7 +165,6 @@ body {
     position: absolute;
     width: 315px;
     max-height: 582px;
-    height: -moz-max-content;
     height: max-content;
     background-color: white;
     box-shadow: 0px 13px 20px rgba(0, 0, 0, 0.2392156863);
@@ -185,9 +183,7 @@ body {
     background-color: rgba(0, 0, 0, 0.38);
     border-radius: 6px;
   }
-  .notificationArea .notifications::-webkit-scrollbar-track {
-    background-color: transparent;
-  }
+
   .notificationArea .notifications {
     max-height: 534px;
     overflow-y: scroll;
@@ -232,7 +228,6 @@ body {
     align-items: center;
     color: #1F7A54;
     font-weight: bold;
-    background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
     background: white 0% 0% no-repeat padding-box;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.2392156863);
     border-radius: 0px 0px 2px 2px;
@@ -247,7 +242,6 @@ body {
   .announcementArea {
     position: absolute;
     width: 315px;
-    height: -moz-max-content;
     height: max-content;
     max-height: 582px;
     right: 136px;

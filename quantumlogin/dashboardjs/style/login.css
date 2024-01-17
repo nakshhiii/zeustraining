@@ -15,16 +15,20 @@
     /*  Content Style */
     /*  Footer Style     */
   }
-  .container .header {
-    height: 58px;
+   .header {
     position: relative;
     display: flex;
     align-items: center;
     padding: 0 29px;
-    background-color: black;
     border-bottom: 2px solid #31B9E4;
+    height: 58px;
+    background: transparent url("/zeustraining//quantumlogin/dashboardjs/assets/header\ pattern\ image.png") 0% 0% padding-box;
+    mix-blend-mode: overlay;
+    opacity: 1;
+    background-color: black;
+    z-index: 2;
   }
-  .container .header img {
+   .header img {
     height: 36px;
   }
   .container .content {
@@ -87,10 +91,7 @@
   .container .login-card form .select select {
     padding: 5px 0;
     color: #222222;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-    background-image: url("/assets/icons/arrow-down.svg");
+    background-image: url("/zeustraining/quantumlogin/dashboardjs/assets/icons/arrow-down.svg");
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: calc(100% + 6px) center;
